@@ -1,7 +1,7 @@
 # PinkTeamDiscordBot
-#### By Samuel Villegas aka DevSamuelV @github
+##### By Samuel Villegas aka DevSamuelV @github
 ------------------------------------------------------
-###Discord Bot For The Pink Team Discord Server
+Discord Bot For The Pink Team Discord Server
 
 To Start up the Bot on Discord `node .`
 in the command line or powershell and the bot should run if not check if your command line 
