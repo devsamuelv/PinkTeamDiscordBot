@@ -1,5 +1,9 @@
-import firebase from "firebase";
-const database = firebase.database();
+import firebase from 'firebase';
+const Discord = require('discord.js');
+const bot = Discord.Client();
+
+var database = firebase.database();
+var ref = database.ref('events');
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
@@ -13,3 +17,16 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
+var data = {
+    event_name: "",
+    event_date: '1/1/19',
+    event_author: "",
+    event_location: '',
+    event_people_going: 0,
+    event_cancled: false
+};
+
+function showEvents(){
+
+}
