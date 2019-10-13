@@ -6,6 +6,7 @@ let users;
 var bot_version = "1.0.0";
 const WEBSITE_URL = "https://thepinkteam.net";
 const TEAMAPP = "https://pinkrobotics.teamapp.com";
+const AUTHOR = "DevSamuelV";
 // todo add events
 
 users = ["Developer", "diamond dunkers YT", "Dr0verbuild", "XxOptic_JewsxX", "CreWizP", "brookzy0827", "WindySquid", "DarkWolf",
@@ -87,7 +88,7 @@ bot.on('message', message => {
                 message.channel.sendMessage("You can use ?info version or ?info author");
             }
             if ('author') {
-                message.channel.sendMessage("Made By DevSamuel @github");
+                message.channel.sendMessage(`Made By ${AUTHOR} @github`);
             } else {
                 message.channel.sendMessage("You can use ?info version or ?info author");
             }
