@@ -1,3 +1,4 @@
+const firebase = require('firebase');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const token = 'NjMyNjg3NDA4NzkzNzgwMjc1.XaJCjw.cmRw_TTUpZNUvl6xMRWzHXIKBo8';
