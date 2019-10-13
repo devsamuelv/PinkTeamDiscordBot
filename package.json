@@ -1,0 +1,22 @@
+{
+  "name": "pinkteamdiscordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSamuelV/PinkTeamDiscordBot.git"
+  },
+  "author": "DevSamuel @github",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevSamuelV/PinkTeamDiscordBot/issues"
+  },
+  "homepage": "https://github.com/DevSamuelV/PinkTeamDiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
